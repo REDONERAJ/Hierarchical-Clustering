@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iris Hierarchical Clustering</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #eef5ff; }
+        .container { max-width: 500px; margin: auto; background: white; padding: 20px; margin-top: 50px; border-radius: 10px; }
+        input { width: 100%; padding: 10px; margin: 5px 0; }
+        button { background: green; color: white; padding: 10px; border: none; width: 100%; }
+        h2 { text-align: center; }
+        .result { font-weight: bold; margin-top: 20px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Iris Hierarchical Clustering</h2>
+        <form method="POST">
+            {% for feature in features %}
+                <input type="number" step="any" name="{{ feature }}" placeholder="{{ feature }} (e.g. {{ loop.index * 2 + 3.5 }})" required>
+            {% endfor %}
+            <button type="submit">Predict Cluster</button>
+        </form>
+        {% if prediction %}
+            <div class="result">Predicted Cluster: {{ prediction }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
