@@ -1,4 +1,4 @@
-# 🌸 Hierarchical Clustering Web App (Iris Dataset)
+#  Hierarchical Clustering Web App (Iris Dataset)
 
 This project is a **Flask-powered web application** that uses a **Hierarchical Clustering model** to group iris flowers into clusters based on their physical characteristics.  
 
@@ -6,7 +6,7 @@ The model is trained using the **Iris dataset** from the UCI Machine Learning Re
 
 ---
 
-## 🚀 Features
+##  Features
 - Uses the classic, well-known **Iris dataset** for demonstration and testing.
 - **4 numeric features** with clear cluster separation for meaningful predictions.
 - User-friendly Flask web interface with example placeholders for quick testing.
@@ -14,7 +14,7 @@ The model is trained using the **Iris dataset** from the UCI Machine Learning Re
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```hierarchical-clustering-iris/
 │
 ├── model.py # Loads dataset, trains hierarchical clustering model, saves model+scaler+features
@@ -28,7 +28,7 @@ The model is trained using the **Iris dataset** from the UCI Machine Learning Re
 
 ---
 
-## 🔧 Installation
+##  Installation
 1. **Clone this repository**  
 ```bash
 git clone <your-repo-url>
@@ -51,7 +51,7 @@ Navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
-## 🖥 Example Inputs for Testing
+## Example Inputs for Testing
 Here are sample inputs that should produce different clusters:
 
 | Cluster | Sepal Length (cm) | Sepal Width (cm) | Petal Length (cm) | Petal Width (cm) |
@@ -62,7 +62,7 @@ Here are sample inputs that should produce different clusters:
 
 ---
 
-## ⚙ Requirements
+## Requirements
 Flask  
 scikit-learn  
 pandas  
@@ -71,7 +71,7 @@ joblib
 
 ---
 
-## 📸 Screenshot
+##  Screenshot
 <img width="1366" height="640" alt="Screenshot 2025-08-12 013853" src="https://github.com/user-attachments/assets/1afb0cbd-1d11-4243-9fa1-272b5a458eb2" />
 
 <img width="1366" height="633" alt="Screenshot 2025-08-12 013908" src="https://github.com/user-attachments/assets/75d5339c-e885-4a62-9a39-49394e85505c" />
